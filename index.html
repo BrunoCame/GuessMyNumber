@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adivinhe o Número</title>
+  </head>
+  <body>
+    <header>
+      <h1>Adivinhe o número!</h1>
+      <p class="pEntre">(Entre 1 a 20)</p>
+      <button class="btn repetir">Repetir</button>
+      <div class="divPonto">?</div>
+    </header>
+
+    <main>
+      <section class="esquerda">
+        <input type="number" class="caixaNumero" />
+        <button class="btn confirmar">confirmar!</button>
+      </section>
+
+      <section class="direita">
+        <p class="adivinhe">Adivinhe...</p>
+        <p class="pontu">💯 Pontuação: <span class="score">20</span></p>
+        <p class="recor">🥇 Recorde: <span class="recorde">0</span></p>
+      </section>
+
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>

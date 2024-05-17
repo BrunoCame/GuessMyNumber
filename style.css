@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: white;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+
+header {
+  height: 35vh;
+  position: relative;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.esquerda {
+  /* width: 52rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.direita {
+  font-size: 2rem;
+}
+
+/* STYLE */
+
+h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  /* left: 50%; */
+}
+
+.pEntre {
+  font-size: 1.8em;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+}
+
+.btn {
+  padding: 2rem 3rem;
+  font-family: inherit;
+  font-size: 2rem;
+  color: #222;
+  border: none;
+  cursor: pointer;
+}
+
+.divPonto {
+  background: #eee;
+  color: #222;
+  padding: 3rem;
+  width: 15rem;
+  font-size: 6rem;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.repetir {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.caixaNumero {
+  background-color: #222;
+  border: 4px solid rgb(238, 238, 238);
+  color: #eee;
+  padding: 2.5rem;
+  font-size: 5rem;
+  width: 25rem;
+  text-align: center;
+  font-family: inherit;
+  margin-bottom: 3rem;
+}
+
+.confirmar {
+  padding: 2rem;
+}
+
+.adivinhe {
+  padding-bottom: 9rem;
+}
+
+.pontu {
+  padding-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: rgba(238, 238, 238, 0.8);
+}
